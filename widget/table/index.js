@@ -13101,8 +13101,7 @@ parcelRequire = function (e, r, t, n) {
         }
 
         function i(a) {
-            var t = a.domElement, u = t.getAttribute("columns");
-            u = u || e.default.useMemo(function () {
+            var t = a.domElement, u = t.getAttribute("columns"), l = e.default.useMemo(function () {
                 return [{
                     Header: "Name",
                     columns: [{Header: "First Name", accessor: "firstName"}, {
@@ -13116,13 +13115,12 @@ parcelRequire = function (e, r, t, n) {
                         accessor: "visits"
                     }, {Header: "Status", accessor: "status"}, {Header: "Profile Progress", accessor: "progress"}]
                 }]
-            }, []);
-            var l = t.getAttribute("data");
-            return l = l || e.default.useMemo(function () {
+            }, []), s = t.getAttribute("data"), n = e.default.useMemo(function () {
                 return (0, o.default)(20)
-            }, []), e.default.createElement("div", null, e.default.createElement(r.default, null), e.default.createElement(c, {
-                columns: u,
-                data: l
+            }, []);
+            return e.default.createElement("div", null, e.default.createElement(r.default, null), e.default.createElement(c, {
+                columns: u || l,
+                data: s || n
             }))
         }
 
