@@ -1,6 +1,5 @@
 {
   "EN": {
-    "translation": {
       "text.hint.edit": "Edit Hint",
       "text.hint.cancel": "Cancel Hint",
       "text.hint.save": "Save Hint",
@@ -256,10 +255,8 @@
       "title.Ingredient.attribute.submissionDate": "Submission Date",
       "title.Ingredient.attribute.dateOfLastUpdate": "Date of Last Update",
       "title.Ingredient.attribute.documentLink": "Document Link"
-    }
   },
   "UA": {
-    "translation": {
       "text.hint.edit": "Редагувати",
       "text.hint.cancel": "Скасувати",
       "text.hint.save": "Зберегти",
@@ -281,6 +278,5 @@
       "title.admin.substance.keywords": "Ключові слова",
       "title.admin.substance.description": "Опис",
       "title.admin.substance.comments": "Коментарі"
-    }
   }
 }
